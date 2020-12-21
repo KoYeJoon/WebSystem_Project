@@ -1,0 +1,322 @@
+.mainImg{
+    height: 6rem;
+    width: 450px;
+}
+
+table.hospitalResultTable {
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin : 20px 20px;
+
+}
+table.hospitalResultTable th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    background: #eee;
+}
+table.hospitalResultTable td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.searchForm{
+    margin-top : 50px;
+}
+
+button.searchForm{
+    height : 50px;
+    width : 80px;
+    margin-right: 8vh;
+}
+button.searchAdd{
+    margin-top : 20px;
+    width : 100px;
+    height: 40px;
+}
+.hospitalResult{
+    margin-top : 40px;
+}
+
+div.searchField{
+    margin-top: 10px;
+}
+
+input.searchField{
+    margin-left : 10px;
+}
+button.searchField{
+    margin-top : 20px;
+    width : 100px;
+    height: 40px;
+}
+
+.kakaomap, .mapShow{
+    margin-left : 8vw;
+}
+
+.recordListSearch, .recordListAscending{
+    margin-right : 10px;
+}
+
+table.RecordTable {
+    clear : right;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin : 20px 80px;
+}
+table.RecordTable th {
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    background: #FFD1B7;
+}
+table.RecordTable td {
+    width: 400px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background:	#FDF5E6;
+}
+
+form.createField{
+    margin-top : 20px;
+    background-color: #FFEFD5;
+    height : 60vh;
+    width : 50vm;
+    margin-left : 15vh;
+    margin-right : 15vh;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.createField{
+    margin-top : 30px;
+    margin-bottom : 50px;
+    margin-right : 10px;
+}
+
+label.createField, input.createField{
+    height : 3vh;
+    width : 18vw;
+    font-size: medium;
+}
+
+.modifyField{
+    margin-top: 30px;
+}
+
+label.modifyField, input.modifyField{
+    height : 3vh;
+    width : 18vw;
+    font-size: medium;
+}
+
+textarea.modifyField{
+    font-size: 1.2rem;
+    margin-top:10px;
+}
+
+form.modifyField{
+    height : 89vh;
+    width : 70vm;
+    background-color:#E6C17B;
+    margin : 8px 8px 8px 8px;
+    display: block;
+}
+
+button.createField, button.modifyField{
+    width : 200px;
+    height : 50px;
+}
+
+
+label.createField,div.modifyField,label.modifyField{
+    font-weight: bold;
+    margin-right : 10px;
+}
+
+
+
+button.calendar{
+    width : 200px;
+    height : 50px;
+    margin-top : 10px;
+    margin-right:0px;
+}
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color:#FDF5E6;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80vw;
+    height : 90vh;
+}
+
+/* The Close Button */
+.close {
+    color: #CD2E57;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top : 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul.todolist{
+    height : 80vh;
+    width : 80vm;
+    background-color: #FFDFB0;
+    margin-left : 5vw;
+    margin-right : 5vw;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+div.todolist{
+    height : 80vh;
+    width : 80vm;
+    background-color: #FFDFB0;
+    margin-left : 5vw;
+    margin-right : 5vw;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+li.todolist{
+    text-align: left;
+    margin-left : 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.calendar{
+    margin-top:40px;
+}
+
+div.box-recordList{
+    height : 40vh;
+    width : 80vm;
+    background-color: #FFDFB0;
+    margin-top : 10vh;
+    margin-left : 5vw;
+    margin-right : 5vw;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+.todoTotal{
+    text-align : left;
+    margin-left : 50px;
+    margin-bottom: 30px;
+}
+div.box{
+    margin : 10px 10vh 5px 10vh;
+    height : 70vh;
+    width : 50vm;
+    background-color: #FFEFD5;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    display: block;
+}
+
+
+input.createRecord, label.createRecord{
+    margin-right : 10px;
+    margin-top : 20px;
+    margin-bottom: 10px;
+    height : 3vh;
+    width : 18vw;
+    font-size: medium;
+}
+.createRecord{
+    margin-top:10px;
+}
+label.createRecord{
+    font-weight: bold;
+}
+div.createRecord{
+    margin-top : 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+textarea.createRecord {
+    margin-top:5px;
+    font-size: 1.2rem;
+}
+
+.resultForm{
+    margin-top : 40px;
+}
+
+
+.recordCount{
+    margin-top : 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.pageCount{
+    margin : 30px auto 10px auto;
+}
+
+td.active{
+    border : solid 1px #800000	;
+}
+button.page-link{
+    border : 0;
+    outline : 0;
+    background-color: white;
+    color : #8F4646;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 2.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+button.page-link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+

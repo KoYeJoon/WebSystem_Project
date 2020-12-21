@@ -1,0 +1,112 @@
+
+.logo {
+    height: 5rem;
+    /*background-color: #212529;*/
+    width: 100vw;
+    line-height: 5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu {
+    /*background-color:#8B4513;*/
+    background-color:#FFF0F0;
+    border-bottom: 1px solid #8B4513;
+    border-top : 1px solid  #8B4513;
+    height: 3.3rem;
+}
+.submenu{
+    background-color: white;
+    height: 3rem;
+    margin-top : 20px;
+}
+
+.loginMenu{
+    height:2rem;
+    margin-top : 10px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+button.login-item{
+    border : 0;
+    outline : 0;
+    background-color: white;
+    width : 6rem;
+    height:1.8rem;
+}
+.login-item{
+    /*display: inline-block;*/
+    color : #8F4646;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    width: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-right : 40px;
+}
+.menu-item {
+    display: inline-block;
+    color : #8F4646;
+    font-size: 1rem;
+    line-height: 3.3rem;
+    width: 33.3333%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.submenu-item {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    width: 28%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+}
+
+.menu-item:hover {
+    background-color: #FFDFDC;
+    font-weight: bold;
+}
+
+.login-item:hover, .login-item.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu-item:active, .menu-item.active {
+    font-weight: bold;
+    background-color: #E59551;
+}
+
+.submenu-item:hover{
+    background-color: #dcdcdc;
+}
+.submenu-item:active, .submenu-item.active{
+    background-color:#D7AC87;
+}
+
+.footer{
+    margin-top : 50px;
+    /*margin-bottom : 0px;*/
+    padding: 0.2rem;
+    background-color: antiquewhite;
+    text-align: center;
+    position :fixed;
+    display : block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+

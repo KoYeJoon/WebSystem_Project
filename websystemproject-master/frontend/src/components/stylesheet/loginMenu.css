@@ -1,0 +1,95 @@
+.signUpForm{
+    margin-top : 20px;
+}
+
+div.box-signUp{
+    margin : 30px 20vh 10px 20vh;
+    background-color: #FFEFD5;
+    height : 68vh;
+    width : 50vm;
+    display : block;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+
+div.box-login{
+    margin-left : 56vw;
+    margin-right : 5vw;
+    background-color: #FFEFD5;
+    height : 50vh;
+    width : 40vm;
+    display : block;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+@media (max-width : 800px) {
+    div.box-login{
+        margin: 0px auto;
+        background-color: #FFEFD5;
+        height : 50vh;
+        width : 50vh;
+        display : block;
+        box-shadow: 3px 3px 3px 3px lightgray;
+    }
+}
+
+div.box-myInfo{
+    margin : 10px 20vh 10px 20vh;
+    background-color: #FFEFD5;
+    height : 50vh;
+    width : 50vm;
+    display : block;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+input.signUp, label.signUp, input.login, label.login, .myInfo{
+    margin-right : 10px;
+    margin-top : 20px;
+    margin-bottom: 10px;
+    width : 20vw;
+    height : 3vh;
+    font-size: medium;
+    text-align: center;
+}
+
+.idInput{
+    margin-left : 50px;
+}
+
+.pwInput{
+    margin-right : 60px;
+}
+
+.pwCkInput{
+    margin-right : 80px;
+}
+.nameInput{
+    margin-right : 20px;
+}
+button.idConfirm{
+    height : 3vh;
+}
+label.signUp, label.login, label.myInfo{
+    font-weight: bold;
+}
+
+h4.myInfo{
+    padding-top : 20px;
+    margin : 0px auto;
+}
+
+
+.warningID{
+    margin-right : 50px;
+}
+
+.warningPW{
+    margin-left: 50px;
+}
+
+.warningPwck{
+    margin-left: 60px;
+}
+
+.warningName{
+    margin-left: 20px;
+}
